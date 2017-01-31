@@ -47,6 +47,7 @@ body{
   display : flex;
   flex-direction: column;
   font-family: arial;
+  background-color: pink;
 }
 
 header, footer {
@@ -101,6 +102,8 @@ header{
 main{
     display:flex;
     flex-direction:column;
+    margin: 60px;
+
     section{
       display:flex;
       flex-direction:column;
@@ -117,9 +120,9 @@ main{
       }
 
       &:nth-child(even) {
-          article:nth-child(1) {background-color: red;}
+          article:nth-child(1) {background-color: blue;}
           article:nth-child(2) {background-color: cyan;}
-          article:nth-child(3) {background-color: magenta;}
+          article:nth-child(3) {background-color: yellow;}
       }
       &:nth-child(odd) {
           article:nth-child(1) {background-color: brown;}
